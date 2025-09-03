@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Debug mypackage/main.py using beta",
+      "program": "${workspaceFolder}/mypackage/main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Debug mypackage/core.py",
+      "program": "${workspaceFolder}/mypackage/core.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Using local packages in requirements.txt for testing local whl files. Replace with public versions to validate in production.
+
+# Moved the old one to a different Dist
+# C:\repos\Agents-M365Copilot\python\packages\microsoft_agents_m365copilot_core\dist\microsoft_agents_m365copilot_core-1.0.0rc1-py3-none-any.whl
+
+# C:\repos\Agents-M365Copilot\python\packages\microsoft_agents_m365copilot_beta\dist\microsoft_agents_m365copilot_beta-1.0.0rc4-py3-none-any.whl
+
+# microsoft-agents-m365copilot-core==1.0.0rc2
+
+microsoft-agents-m365copilot-beta==1.0.0rc5
+azure-identity>=1.24.0
+aiohttp>=3.12.15
